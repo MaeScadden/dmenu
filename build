@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo make clean install
+sudo cp dmenu_run /usr/bin
+sudo cp dmenu /usr/bin
+sudo cp dmenu_path /usr/bin
+sudo rm -rf ~/.cache/dmenu_run
